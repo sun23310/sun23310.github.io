@@ -1,0 +1,29 @@
+search(){
+      axios.get('/posts')
+      .then(
+        res=>{
+          console.log(res);
+          this.postList=res.data;
+          this.postOb.username=''
+          this.postOb.password=''
+          this.$store.commit('log')
+        }
+      )
+    },
+    async zhuce(){
+      const newRegistrationId = this.generateUniqueId();
+      this.postOb.id = newRegistrationId;
+      await axios.post("/posts",this.postOb)
+      this.dajian(newRegistrationId)
+      this.search()
+
+    },
+    generateUniqueId() {
+    return Date.now().toString(36) + Math.random().toString(36).substr(2, 5);
+    },
+    // this.dajian(this.postOb.id)
+    async dajian(id) {
+      const data = await axios.get(`http://localhost:3010`);
+      const foundPost = data.posts.find(post => post.id === id);
+      console.log(foundPost);
+    },

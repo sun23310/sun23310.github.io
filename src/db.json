@@ -1,0 +1,107 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "username": "LZZ",
+      "password": "123456",
+      "mrtx": "../assets/icon/登录默认.png",
+      "mrjianjie": "这个人很懒，简介都没有添加",
+      "mrIP": "未知",
+      "mrYC": 0,
+      "mrFS": 0,
+      "mrHZ": 0,
+      "id": 2
+    },
+    {
+      "username": "rrr",
+      "password": "rrr",
+      "mrtx": "../assets/icon/登录默认.png",
+      "mrjianjie": "这个人很懒，简介都没有添加",
+      "mrIP": "未知",
+      "mrYC": 0,
+      "mrFS": 0,
+      "mrHZ": 0,
+      "id": "lnfwgdnmga19v"
+    },
+    {
+      "username": "qwe",
+      "password": "123456",
+      "mrtx": "../assets/icon/登录默认.png",
+      "mrjianjie": "这个人很懒，简介都没有添加",
+      "mrIP": "未知",
+      "mrYC": 0,
+      "mrFS": 0,
+      "mrHZ": 0,
+      "id": "lnfwt42jshuil"
+    },
+    {
+      "username": "zxc",
+      "password": "123456",
+      "mrtx": "../assets/icon/登录默认.png",
+      "mrjianjie": "这个人很懒，简介都没有添加",
+      "mrIP": "未知",
+      "mrYC": 0,
+      "mrFS": 0,
+      "mrHZ": 0,
+      "id": 3
+    },
+    {
+      "username": "mnb",
+      "password": "123456",
+      "mrtx": "../assets/icon/登录默认.png",
+      "mrjianjie": "这个人很懒，简介都没有添加",
+      "mrIP": "未知",
+      "mrYC": 0,
+      "mrFS": 0,
+      "mrHZ": 0,
+      "id": 4
+    },
+    {
+      "username": "dfg",
+      "password": "123456",
+      "mrtx": "../assets/icon/登录默认.png",
+      "mrjianjie": "这个人很懒，简介都没有添加",
+      "mrIP": "未知",
+      "mrYC": 0,
+      "mrFS": 0,
+      "mrHZ": 0,
+      "id": 5
+    },
+    {
+      "username": "sasdad",
+      "password": "123456",
+      "mrtx": "../assets/icon/登录默认.png",
+      "mrjianjie": "这个人很懒，简介都没有添加",
+      "mrIP": "未知",
+      "mrYC": 0,
+      "mrFS": 0,
+      "mrHZ": 0,
+      "id": 6
+    },
+    {
+      "username": "",
+      "password": "",
+      "mrtx": "../assets/icon/登录默认.png",
+      "mrjianjie": "这个人很懒，简介都没有添加",
+      "mrIP": "未知",
+      "mrYC": 0,
+      "mrFS": 0,
+      "mrHZ": 0,
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
